@@ -107,24 +107,19 @@ hr.light{
      font-size: 4em;
      padding: 2rem;
    }
-  }
-@media (max-width: 768px) {
-  
-  .carousel-caption{
-  
-    top:10%;
-   
+   .carousel-inner{
+    top:20%;
  }
  .carousel-caption h1{
-   font-size:500%;
+   font-size:400%;
    text-transform: uppercase;
-   text-shadow: 2px 2px 15px black;
+   text-shadow: 1px 1px 15px black;
  }
  
  
  .carousel-caption h3{
-   font-size:200%;
-   font-weight:500;
+   font-size:160%;
+   font-weight:300;
    text-shadow: 1px 1px 10px #000;
    padding-bottom:1rem
  }
@@ -136,10 +131,64 @@ hr.light{
 
 
 
+  }
+@media (max-width: 862px) {
+  
+  
+  carousel-inner{
+  
+    top:5%;
+   
+ }
+ .carousel-caption h1{
+   font-size:300%;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 15px black;
+ }
+ 
+ 
+ .carousel-caption h3{
+   font-size:120%;
+   font-weight:300;
+   text-shadow: 1px 1px 10px #000;
+   padding-bottom:1rem
+ }
+
+.carousel-caption button{
+  font-size: 91%;
+  padding:0.3rem;
+}
+
+
+
+
 
 }
 @media (max-width: 576px) {
   
+  
+  
+ .carousel-caption h1{
+   position:absolute;
+   top: -23px;
+   left: 80px;
+   font-size:200%;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 15px black;
+ }
+ 
+ 
+ .carousel-caption h3{
+   font-size:90%;
+   font-weight:300;
+   text-shadow: 1px 1px 10px #000;
+   padding-bottom:1rem
+ }
+
+.carousel-caption button{
+  font-size: 91%;
+  padding:0.3rem;
+}
 }
 
 
